@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import linkedin from './images/linkedin.png';
+import github from './images/github.png';
+import scholar from './images/scholar.png';
+import facebook from './images/facebook.png';
+import youtube from './images/youtube.png';
 import './App.css';
 
 
@@ -25,19 +29,19 @@ function App() {
         </p>
         <div class="row">
           <a class="pagina" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
-            <img className='pagina-logo' src='https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png' alt='logo linkedin'/>
+            <img className='pagina-logo' src={linkedin} alt='logo linkedin'/>
           </a>
           <a class="pagina" href="https://github.com/AMontoya224" target="_blank">
-            <img className='pagina-logo' src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt='logo github'/>
+            <img className='pagina-logo' src={github} alt='logo github'/>
           </a>
           <a class="pagina" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
-            <img className='pagina-logo' src='http://lancis.ecologia.unam.mx/assets/morena%20files/GOOGLE%20SCHOLAR%20LOGO.png' alt='logo scholar'/>
+            <img className='pagina-logo' src={scholar} alt='logo scholar'/>
           </a>
           <a href="https://web.facebook.com/juan.andres.montoya.angulo" target="_blank">
-            <img className='pagina-logo' src={linkedin} alt='logo facebook'/>
+            <img className='pagina-logo' src={facebook} alt='logo facebook'/>
           </a>
           <a class="pagina" href="https://www.youtube.com/channel/UC94EeNbFYtW6vIUds8qR94A" target="_blank">
-            <img className='pagina-logo' src='https://www.pngmart.com/files/20/Youtube-Logo-PNG-HD.png' alt='logo youtube'/>
+            <img className='pagina-logo' src={youtube} alt='logo youtube'/>
           </a>
         </div>
       </footer>
