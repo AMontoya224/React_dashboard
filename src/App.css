@@ -110,6 +110,7 @@ footer > p > b{
 }
 .pagina-logo:hover{
     width: 62px;
+    margin: 8px;
     border: none;
 }
 
