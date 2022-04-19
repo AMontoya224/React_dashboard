@@ -97,23 +97,16 @@ footer > p > b{
 }
 
 .pagina{
-    appearance: auto;
     text-align: center;
     color: var(--color-letter);
-    background: var(--color-background);
-    margin: 5px;
-    margin-bottom: 30px;
-    padding-top: 10px; 
-}
-.pagina:hover{
-    padding-top: 20px; 
-    border: none;
+    background: var(--color-background); 
 }
 
 .pagina-logo{
     width: 60px;
+    margin: 10px;
     border-radius: 50%;
-    border: 10px solid var(--color-background);
+    border: 5px solid var(--color-background);
 }
 .pagina-logo:hover{
     width: 65px;

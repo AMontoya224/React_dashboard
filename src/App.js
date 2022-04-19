@@ -27,20 +27,20 @@ function App() {
         <p>
             Desarrollado por <b>Andres Montoya</b>
         </p>
-        <div class="row">
-          <a class="pagina" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
+        <div className="row">
+          <a className="pagina" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
             <img className='pagina-logo' src={linkedin} alt='logo linkedin'/>
           </a>
-          <a class="pagina" href="https://github.com/AMontoya224" target="_blank">
+          <a className="pagina" href="https://github.com/AMontoya224" target="_blank">
             <img className='pagina-logo' src={github} alt='logo github'/>
           </a>
-          <a class="pagina" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
+          <a className="pagina" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
             <img className='pagina-logo' src={scholar} alt='logo scholar'/>
           </a>
-          <a href="https://web.facebook.com/juan.andres.montoya.angulo" target="_blank">
+          <a className="pagina" href="https://web.facebook.com/juan.andres.montoya.angulo" target="_blank">
             <img className='pagina-logo' src={facebook} alt='logo facebook'/>
           </a>
-          <a class="pagina" href="https://www.youtube.com/channel/UC94EeNbFYtW6vIUds8qR94A" target="_blank">
+          <a className="pagina" href="https://www.youtube.com/channel/UC94EeNbFYtW6vIUds8qR94A" target="_blank">
             <img className='pagina-logo' src={youtube} alt='logo youtube'/>
           </a>
         </div>
