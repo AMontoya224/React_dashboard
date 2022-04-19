@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import linkedin from './images/linkedin.png';
 import './App.css';
 import { LogoLinkedin, LogoGithub, School, LogoFacebook, LogoYoutube } from 'react-ionicons'
 
@@ -25,7 +26,7 @@ function App() {
         </p>
         <div class="row">
           <a class="pagina" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
-            <img className='pagina-logo' src='./images/linkedin.png' alt='logo linkedin'/>
+            <img className='pagina-logo' src={linkedin} alt='logo linkedin'/>
           </a>
           <a class="pagina" href="https://github.com/AMontoya224" target="_blank">
             <LogoGithub/>
