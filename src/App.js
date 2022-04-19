@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { LogoLinkedin, LogoGithub } from 'react-ionicons'
+import { LogoLinkedin, LogoGithub, School, LogoFacebook, LogoYoutube } from 'react-ionicons'
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
             Desarrollado por <b>Andres Montoya</b>
         </p>
         <div class="row">
-          <a class="paginas" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
+          <a class="pagina" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
             <LogoLinkedin
               color={'#000000'} 
               title={''}
@@ -32,17 +32,17 @@ function App() {
               width="40px"
             />
           </a>
-          <a class="paginas" href="https://github.com/AMontoya224" target="_blank">
-            <LogoGithub />
+          <a class="pagina" href="https://github.com/AMontoya224" target="_blank">
+            <LogoGithub/>
           </a>
-          <a class="paginas" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
-            <ion-icon name="logo-chrome" size="large"></ion-icon>
+          <a class="pagina" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
+            <School className='pagina'/>
           </a>
-          <a class="paginas" href="https://web.facebook.com/juan.andres.montoya.angulo" target="_blank">
-            <ion-icon name="logo-facebook" size="large"></ion-icon>
+          <a href="https://web.facebook.com/juan.andres.montoya.angulo" target="_blank">
+            <LogoFacebook className="pagina"/>
           </a>
-          <a class="paginas" href="https://www.youtube.com/channel/UC94EeNbFYtW6vIUds8qR94A" target="_blank">
-            <ion-icon name="logo-youtube" size="large"></ion-icon>
+          <a class="pagina" href="https://www.youtube.com/channel/UC94EeNbFYtW6vIUds8qR94A" target="_blank">
+            <LogoYoutube className='pagina-logo'/>
           </a>
         </div>
       </footer>
