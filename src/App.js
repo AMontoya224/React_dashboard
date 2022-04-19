@@ -25,12 +25,7 @@ function App() {
         </p>
         <div class="row">
           <a class="pagina" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
-            <LogoLinkedin
-              color={'#000000'} 
-              title={''}
-              height="50px"
-              width="40px"
-            />
+            <img className='pagina-logo' src='./images/linkedin.png' alt='logo linkedin'/>
           </a>
           <a class="pagina" href="https://github.com/AMontoya224" target="_blank">
             <LogoGithub/>
