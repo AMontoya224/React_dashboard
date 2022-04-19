@@ -1,7 +1,5 @@
 import logo from './logo.svg';
-import linkedin from './images/linkedin.png';
 import './App.css';
-import { LogoLinkedin, LogoGithub, School, LogoFacebook, LogoYoutube } from 'react-ionicons'
 
 
 function App() {
@@ -26,24 +24,22 @@ function App() {
         </p>
         <div class="row">
           <a class="pagina" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
-            <img className='pagina-logo' src={linkedin} alt='logo linkedin'/>
+            <img className='pagina-logo' src='https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png' alt='logo linkedin'/>
           </a>
           <a class="pagina" href="https://github.com/AMontoya224" target="_blank">
-            <LogoGithub/>
+            <img className='pagina-logo' src='https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png' alt='logo github'/>
           </a>
           <a class="pagina" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
-            <School className='pagina'/>
+            <img className='pagina-logo' src='http://lancis.ecologia.unam.mx/assets/morena%20files/GOOGLE%20SCHOLAR%20LOGO.png' alt='logo scholar'/>
           </a>
           <a href="https://web.facebook.com/juan.andres.montoya.angulo" target="_blank">
-            <LogoFacebook className="pagina"/>
+            <img className='pagina-logo' src='https://cdn.icon-icons.com/icons2/1/PNG/256/social_facebook_fb_35.png' alt='logo facebook'/>
           </a>
           <a class="pagina" href="https://www.youtube.com/channel/UC94EeNbFYtW6vIUds8qR94A" target="_blank">
-            <LogoYoutube className='pagina-logo'/>
+            <img className='pagina-logo' src='https://cdn.icon-icons.com/icons2/1/PNG/256/social_youtube_23.png' alt='logo youtube'/>
           </a>
         </div>
       </footer>
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </div>
   );
 }
