@@ -88,6 +88,29 @@ body{
     align-items: center;
 }
 
+footer > p > b{
+    color: var(--color-primary);
+}
+
+.paginas{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-letter);
+    background: var(--color-background);
+    border: 10px solid var(--color-background);
+    border-radius: 50%;
+    margin: 5px;
+    margin-bottom: 30px;
+    padding-top: 10px; 
+}
+.paginas:hover{
+    width: 70px;
+    height: 50px;
+    padding-top: 20px; 
+    border: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
