@@ -11,7 +11,7 @@ function App() {
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"></link>
       <h1>
-        Aqui habra un Dashboard!!
+        Aqui estara mi Portafolio!!
       </h1>
       <span class="material-icons-round">engineering</span>
       <div className='row'>
