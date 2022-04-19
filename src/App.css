@@ -111,12 +111,12 @@ footer > p > b{
 }
 
 .pagina-logo{
-    width: 50px;
+    width: 60px;
     border-radius: 50%;
     border: 10px solid var(--color-background);
 }
 .pagina-logo:hover{
-    width: 70px;
+    width: 65px;
     border: none;
 }
 
