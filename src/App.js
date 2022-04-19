@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { LogoLinkedin, LogoGithub } from 'react-ionicons'
+
 
 function App() {
   return (
@@ -22,12 +24,16 @@ function App() {
             Desarrollado por <b>Andres Montoya</b>
         </p>
         <div class="row">
-        <ion-icon name="logo-linkedin" size="large"></ion-icon>
           <a class="paginas" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
-            <ion-icon name="logo-linkedin" size="large"></ion-icon>
+            <LogoLinkedin
+              color={'#000000'} 
+              title={''}
+              height="50px"
+              width="40px"
+            />
           </a>
           <a class="paginas" href="https://github.com/AMontoya224" target="_blank">
-            <ion-icon name="logo-github" size="large"></ion-icon>
+            <LogoGithub />
           </a>
           <a class="paginas" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
             <ion-icon name="logo-chrome" size="large"></ion-icon>
