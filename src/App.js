@@ -11,17 +11,18 @@ function App() {
         Aqui habra un Dashboard!!
       </h1>
       <span class="material-icons-round">engineering</span>
+      <div className='row'>
+        <p>
+          Aplicacion desarrollada en React
+        </p>
+        <img src={logo} className="App-logo" alt="logo" />
+      </div>
       <footer>
-        <div className='row'>
-          <p>
-            Aplicacion desarrollada en React
-          </p>
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
         <p>
             Desarrollado por <b>Andres Montoya</b>
         </p>
         <div class="row">
+        <ion-icon name="logo-linkedin" size="large"></ion-icon>
           <a class="paginas" href="https://www.linkedin.com/in/amontoya224/" target="_blank">
             <ion-icon name="logo-linkedin" size="large"></ion-icon>
           </a>
