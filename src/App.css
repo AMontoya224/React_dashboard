@@ -107,6 +107,7 @@ footer > p > b{
     margin: 10px;
     border-radius: 50%;
     opacity: 0.7;
+    transition: all 500ms ease;
 }
 .pagina-logo:hover{
     opacity: 1;
