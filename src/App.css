@@ -97,6 +97,10 @@ footer > p > b{
     color: var(--color-primary);
 }
 
+footer > .row{
+margin-top: 20px;
+}
+
 .pagina{
     text-align: center;
     color: var(--color-letter);
@@ -130,10 +134,6 @@ footer > p > b{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
-    }
-
-    .caja{
-        display: inline-block;
-        border: 2px solid blue;
+        text-align: center;
     }
 }
