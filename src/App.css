@@ -129,14 +129,10 @@ footer > p > b{
     footer{
         margin-left: 20px;
         margin-right: 20px;
-    }
-
-    footer > .row{
-        width: 200px;
         border: 2px solid blue;
     }
 
-    .pagina-logo{
+    .caja{
         display: inline-block;
         border: 2px solid blue;
     }
