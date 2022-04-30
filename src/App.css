@@ -131,7 +131,8 @@ footer > p > b{
         margin-right: 20px;
     }
 
-    .pagina{
+    .pagina-logo{
         display: inline-block;
+        border: 2px solid red;
     }
 }
