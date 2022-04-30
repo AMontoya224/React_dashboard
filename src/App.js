@@ -39,8 +39,8 @@ function App() {
           <a className="pagina" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
             <img className='pagina-logo' src={scholar} alt='logo scholar'/>
           </a>
-          <a className="pagina" href='./images/AMontoya_CV.pdf' target="_blank">
-            <img className='pagina-logo' src={concytec} alt='logo cv'/>
+          <a className="pagina" href='http://docs.google.com/gview?url=./images/AMontoya_CV.pdf&embedded=true' target="_blank">
+            <img className='pagina-logo' src={cv} alt='logo cv'/>
           </a>
           <a className="pagina" href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=140140" target="_blank">
             <img className='pagina-logo' src={concytec} alt='logo concytec'/>
