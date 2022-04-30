@@ -39,7 +39,7 @@ function App() {
           <a className="pagina" href="https://scholar.google.com/citations?user=LI023coAAAAJ&hl=es" target="_blank">
             <img className='pagina-logo' src={scholar} alt='logo scholar'/>
           </a>
-          <a className="pagina" href='http://docs.google.com/gview?url=./images/AMontoya_CV.pdf&embedded=true' target="_blank">
+          <a className="pagina" href='https://drive.google.com/file/d/1VMg9fMJClXj3eSKCVz18-bn8OM4CR-tn/view?usp=sharing' target="_blank">
             <img className='pagina-logo' src={cv} alt='logo cv'/>
           </a>
           <a className="pagina" href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=140140" target="_blank">
